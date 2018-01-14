@@ -1,0 +1,1 @@
+2018/01/14 20:23:12 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: nginx-proxy, request: "GET /spark HTTP/1.1", upstream: "http://172.18.0.4:5002/headers", host: "localhost"

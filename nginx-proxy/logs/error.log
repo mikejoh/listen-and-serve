@@ -1,0 +1,7 @@
+2018/01/11 19:49:42 [emerg] 1#1: unexpected "}" in /etc/nginx/conf.d/default.conf:14
+2018/01/11 19:50:19 [emerg] 1#1: unexpected "}" in /etc/nginx/conf.d/default.conf:14
+2018/01/11 19:51:29 [error] 5#5: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/01/11 19:52:12 [error] 5#5: *1 open() "/usr/share/nginx/html/go-http" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /go-http HTTP/1.1", host: "localhost"
+2018/01/11 20:35:52 [emerg] 1#1: host not found in upstream "web" in /etc/nginx/conf.d/default.conf:13
+2018/01/11 20:55:30 [error] 6#6: *3 open() "/usr/share/nginx/html/heders" failed (2: No such file or directory), client: 172.19.0.1, server: proxy, request: "GET /heders HTTP/1.1", host: "localhost"
+2018/01/11 20:55:32 [error] 6#6: *4 open() "/usr/share/nginx/html/haeders" failed (2: No such file or directory), client: 172.19.0.1, server: proxy, request: "GET /haeders HTTP/1.1", host: "localhost"

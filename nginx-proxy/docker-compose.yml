@@ -1,0 +1,15 @@
+version: '3'
+services:
+  nginx-proxy:
+    image: "nginx:latest"
+    ports:
+     - "80:80"
+    volumes:
+     - ./conf.d:/etc/nginx/conf.d/
+     - ./logs:/var/log/nginx
+  httpserver-go:
+    image: "mikejoh/httpserver-go:latest"
+  httpserver-flask:
+    image: "mikejoh/httpserver-flask:latest"
+  httpserver-spark:
+    image: "mikejoh/httpserver-spark:latest"
