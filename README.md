@@ -27,8 +27,9 @@ The following endpoints are exposed through the nginx-proxy container:
 * /spark
 * /nodejs
 
-Example:
-http://localhost/go -> nginx -> http://httpserver-go:5001/headers (yes Docker takes care of the DNS resolving)
+Example flow:
+
+http://localhost/go -> nginx -> http://httpserver-go:5001/headers
 
 ## Todo
 
