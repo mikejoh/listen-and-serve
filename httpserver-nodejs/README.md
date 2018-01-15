@@ -3,5 +3,5 @@
 * Using a Docker multi-stage build Dockerfile
 
 ## Usage:
-1. Compile and create Docker image
+1. Create the Docker image
     - make build
