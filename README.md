@@ -28,8 +28,7 @@ The following endpoints are exposed through the nginx-proxy container:
 * /nodejs
 
 Example flow:
-
-http://localhost/go -> nginx -> http://httpserver-go:5001/headers
+```http://localhost/go -> nginx -> http://httpserver-go:5001/headers```
 
 ## Todo
 
