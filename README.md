@@ -1,31 +1,33 @@
-# The HTTP-servers
+# Listen and serve
 
-## What is this?
+## Explain!
 
-Here you'll find a vast amount of examples of HTTP-servers written in different programming languages (using a vast amount of different frameworks).
+Listen and serve is a repository where you'll find ~~a vast amount of~~ examples of HTTP-servers written in different programming languages (using ~~a vast amount of~~ different web frameworks). All of the examples provides a Dockerfile for you so that you easily can run them seperatly as containers or via the nginx proxy container. 
 
-All of the HTTP-servers behaves in the same way:
-* Each HTTP-server serves an endpoint ```/headers```, and when you browse to that endpoint the headers of your request will be returned
+The current examples all does the same thing:
+* Listen on a port
+* Serve content over HTTP
+* Expose an endpoint for serving content, ```/headers``` to start with
 
-To make it slightly easier for you i've provided what's needed to run the different examples in Docker containers. To reach them there's a proxy Docker container (nginx).
-
-Please contribute! :-)
-
-### Used languages and frameworks
-
-* Python (with Flask)
-* Go
-* Java (with Spark)
+Hopefully you'll learn more about Docker and serving content over HTTP in different programming languages.
 
 ## Getting started
 
 _Work in progress.._
 
-### Endpoints
+## Used languages and frameworks
 
-* http://localhost/go
-* http://localhost/flask
-* http://localhost/
+* Python (using Flask)
+* Go
+* Java (using Spark)
+* Node
+
+## Endpoints
+
+* /go 
+* /flask
+* /spark
+* /node
 
 ## Todo
 
