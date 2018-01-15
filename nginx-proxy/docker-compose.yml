@@ -13,3 +13,5 @@ services:
     image: "mikejoh/httpserver-flask:latest"
   httpserver-spark:
     image: "mikejoh/httpserver-spark:latest"
+  httpserver-nodejs:
+    image: "mikejoh/httpserver-nodejs:latest"

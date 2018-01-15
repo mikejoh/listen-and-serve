@@ -1,0 +1,13 @@
+{
+    "name": "httpserver-nodejs",
+    "version": "1.0.0",
+    "description": "Listen and serve through Node.js",
+    "author": "mikejoh",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}

@@ -2,7 +2,7 @@
 
 ## Explain!
 
-Listen and serve is a repository where you'll find ~~a vast amount of~~ examples of HTTP-servers written in different programming languages (using ~~a vast amount of~~ different web frameworks). All of the examples provides a Dockerfile for you so that you easily can run them seperatly as containers or via the nginx proxy container. 
+Listen and serve is a repository where you'll find ~~a vast amount of~~ examples of HTTP-servers written in different programming languages (using ~~a vast amount of~~ different web frameworks). All of the examples provides a Dockerfile for you so that you easily can run them seperatly as containers or via the nginx proxy container.
 
 The current examples all does the same thing:
 * Listen on a port
@@ -20,14 +20,14 @@ _Work in progress.._
 * Python (using Flask)
 * Go
 * Java (using Spark)
-* Node
+* Node.js
 
 ## Endpoints
 
-* /go 
+* /go
 * /flask
 * /spark
-* /node
+* /nodejs
 
 ## Todo
 
