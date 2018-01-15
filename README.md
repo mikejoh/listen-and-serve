@@ -13,21 +13,22 @@ Hopefully you'll learn more about Docker and serving content over HTTP in differ
 
 ## Getting started
 
-_Work in progress.._
+_Work in progress!_
 
-## Used languages and frameworks
-
-* Python (using Flask)
-* Go
-* Java (using Spark)
-* Node.js
+1. Build each Docker image by issuing the ```make build``` command in each folder containing examples and the nginx proxy
+2. Run everything with ```docker-compose up -d``` from within the nginx-proxy directory
+3. Browse to the endpoints via http://localhost/<endpoint>
 
 ## Endpoints
 
+The following endpoints are exposed through the nginx-proxy container:
 * /go
 * /flask
 * /spark
 * /nodejs
+
+Example:
+http://localhost/go -> nginx -> http://httpserver-go:5001/headers (yes Docker takes care of the DNS resolving)
 
 ## Todo
 
