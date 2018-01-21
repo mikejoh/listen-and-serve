@@ -1,6 +1,6 @@
 # --- Build ---
 FROM alpine:latest AS build
-RUN apk add --no-cache nodejs
+RUN apk update && apk add --no-cache nodejs
 WORKDIR /build
 COPY package.json .
 RUN npm install
