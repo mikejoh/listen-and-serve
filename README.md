@@ -27,10 +27,10 @@ The following endpoints are exposed through the nginx-proxy container:
 * /spark
 * /nodejs
 
-Example:
-http://localhost/go -> nginx -> http://httpserver-go:5001/headers (yes Docker takes care of the DNS resolving)
+Example flow:
+```http://localhost/go -> nginx -> http://httpserver-go:5001/headers```
 
-## Todo
+## Todo / Ideas
 
 * Add an easier way to run and start everything
 * Provide an index of all examples and serve this via e.g. the proxy
@@ -38,3 +38,4 @@ http://localhost/go -> nginx -> http://httpserver-go:5001/headers (yes Docker ta
 * Add Makefile for the nginx-proxy
 * Docker tags, hello?
 * Find other ways of serving clients via the HTTP-servers, to test more functionality of the  built-in libraries and third party frameworks of the languages
+* Consolidate logging from the containers
